@@ -151,12 +151,6 @@ Once this logic is completed, Level 3 is finished! Congrats!
 
 ![Winner](https://res.cloudinary.com/ahonore42/image/upload/v1611118030/ga/Screen_Shot_2021-01-19_at_10.46.49_PM_x1hm2v.png)
 
-## Bonus: Protecting Game Levels and Allowing For Restarts
-As an added bonus, what if we wanted to protect each level as a player progresses throughout our game or allow a player to restart the game?
-- Create logic or refactor code to ensure that a player can't move on to the next level of the game without winning the previous level
-- A player should not be able to access Level 2 if they have not completed Level 1. Likewise, they should not be able to access Level 3 unless they have completed Level 2
-- To allow a player to restart the game, you'll need to create a link back to the home (index.html) page inside the `level-winner` section
-
 ## Recap
 In this lab, we used DOM manipulation in multiple scripts and HTML files to access HTML elements as variables, then used event listeners with callback functions to allow for conditional game logic in our Dot game. Key concepts covered in this lab include:
 - Variables can be used in JavaScript to affect live HTML through the DOM

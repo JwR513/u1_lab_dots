@@ -6,9 +6,9 @@
 In this lab, we'll be building Dots with JavaScript, HTML, and CSS. Dots is an interactive game with up to 3 levels. In each level, the user has to click a moving ball until they reach a certain score, at which point they can move on to the next level. This game will test your skills with DOM manipulation, event listeners and applying conditional game logic.
 
 ## Objectives
-- Use DOM manipulation with event listeners and callback functions to create a functional Dots browser game
+- Use DOM manipulation with event handling to create a functional Dots browser game
 - The game should be able to track player scores
-- The game should only allow access to levels that players have unlocked
+- The game should display winning messages when a player completes a level
 - Gain a deeper understanding of creating conditional game logic and applying it to create a working game
 
 ## What You'll Be Building

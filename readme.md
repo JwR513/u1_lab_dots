@@ -49,7 +49,7 @@ Now, in `level-one.js` we'll need to create a few necessary variables to start.
 - This event listener will need an anonymous callback function to perform the logic of our game when the `ball` is `clicked`
 - At this point, your event listener should look like this:
 ```js
-ball.addEventListener('click', () => {
+ball.addEventListener('click', function() {
   
   
 });
@@ -90,9 +90,11 @@ How might we add a `click` event listener to each ball element within an array?
   `.forEach()` can be used to add an event listener with the same callback function to *each* HTML element in an array output by `querySelectorAll()`
   
   ```js
-  elements.forEach((element) => element.addEventListener('click', () => {
-
-  }))
+  elements.forEach(function(element) {
+    element.addEventListener('click', function() {
+    
+    });
+  });
   ```
 
   </p>

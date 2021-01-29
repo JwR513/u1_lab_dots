@@ -50,8 +50,7 @@ Now, in `level-one.js` we'll need to create a few necessary variables to start.
 - At this point, your event listener should look like this:
 ```js
 ball.addEventListener('click', function() {
-  
-  
+  // some logic for updating score and checking for a win here
 });
 ```
 For our game to work we'll need to add logic inside the event listener's callback function. What should happen when the `ball` is `clicked`?
@@ -161,7 +160,7 @@ In this lab, we used DOM manipulation in multiple scripts and HTML files to acce
 - `.addEventListener()` is used to handle events for a DOM element. It requires at least 2 arguments:
   - First, the `type` of event being listened for needs to be specified. Commonly used events include: `click`,`DOMContentLoaded`, and `mouseover` but a full list can be found here: [Link](https://developer.mozilla.org/en-US/docs/Web/Events#standard_events)
   - Secondly, something needs to happen once the event being listened for occurs, a *callback* function! The callback function is typically an *anonymous* function `() => {}` or a pre-defined function that determine website behaviour after the event occurs.
-- `.forEach()` is a higher order function in JavaScript that can be used to alter multiple elements within an array
+- `for loops` can be used to alter multiple elements within an array, including DOM elements
 - The `dataset` property of an HTML element allows us to access their custom data attributes 
 - `.getAttribute()` allows access to the *attributes* of a DOM element
 - `parseInt()` can be used to ensure that the data type of a variable is a number

@@ -84,17 +84,18 @@ To start we'll need variables for each of these elements along with a variable t
 
 ### Functionality
 How might we add a `click` event listener to each ball element within an array?
-- A higher order function may be useful here
+- A `loop` may be useful here
 - <details><summary>HINT</summary><p>
   
-  `.forEach()` can be used to add an event listener with the same callback function to *each* HTML element in an array output by `querySelectorAll()`
+  A `for loop` can be used to add an event listener with the same callback function to *each* HTML element in an array output by `querySelectorAll()`
   
   ```js
-  elements.forEach(function(element) {
-    element.addEventListener('click', function() {
-    
+  const elements = document.querySelectorAll('.js-ball');
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].addEventListener('click', function() {
+       // some logic for updating score and checking for a win here
     });
-  });
+  };
   ```
 
   </p>

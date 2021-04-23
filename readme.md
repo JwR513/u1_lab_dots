@@ -167,7 +167,7 @@ In this lab, we used DOM manipulation in multiple scripts and HTML files to acce
 - Conditional logic (control flow) is a hugely important aspect in determining the *behavior* of a website
 
 ## Resources
-- [Events and Callbacks Lesson](https://github.com/SEI-R-1-25/u1_lesson_js_events_callbacks)
-- [Event Bubbling Lesson](https://github.com/SEI-R-1-25/u1_lesson_js_event_bubbling)
-- [JavaScript DOM Lesson](https://github.com/SEI-R-1-25/u1_lesson_js_dom)
+- [Events and Callbacks Lesson](https://github.com/SEI-R-4-26/u1_lesson_events_callbacks)
+- [Event Bubbling Lesson](https://github.com/SEI-R-4-26/u1_lesson_event_bubbling)
+- [JavaScript DOM Lesson](https://github.com/SEI-R-4-26/u1_lesson_DOM)
 - [More on Event Handling](https://www.bitdegree.org/learn/javascript-addeventlistener)

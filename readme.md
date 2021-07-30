@@ -57,7 +57,7 @@ For our game to work we'll need to add logic inside the event listener's callbac
 - Make sure to `console.log` with each step to be sure your logic is working properly!
   - Firstly, we should increment the `score` by `10` 
   - Next, we'll need to make sure that a player sees that their score has gone up
-  - Set the `innerHTML` property of `scoreDisplay` equal to `score` to accomplish this
+  - Set the `innerText` property of `scoreDisplay` equal to `score` to accomplish this
   - Finally, what needs to happen if a player's `score` reaches `100`?
   - Write a conditional statement that checks if the player's `score` is `greater than or equal to 100`
   - If their `score` is at or above `100` we'll need to reflect that by showing the player that they've beaten the level

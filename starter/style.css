@@ -168,7 +168,7 @@ a {
   transition: all 250ms ease;
 }
 
-.game-over .level-winner {
+.game-over {
   opacity: 1;
   pointer-events: all;
 }
